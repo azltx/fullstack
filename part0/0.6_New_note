@@ -1,1 +1,12 @@
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
 
+note over browser:
+browser executes the js to redrawNotes and
+update the note
+end note
+
+note over server:
+server receives the new note in JSON format
+end note
+
+server-->browser: HTML-code (201)
